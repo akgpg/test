@@ -1,0 +1,120 @@
+body {
+    
+    font-size: 16px;
+    background-color: blue; 
+    color: #696969;
+	padding: 0px;
+	margin: 0;
+}
+
+#main {
+   	margin-top: 39px;
+    padding: 5px;
+    padding-left:  15px;
+    padding-right: 15px;
+    background-color: #ffffff;
+
+	}
+
+h1 {
+    font-family: Georgia, serif;
+    border-bottom: 3px solid #cc9900;
+    color: #996600;
+    font-size: 30px;
+}
+
+table {
+    width:100%;
+}
+#tdcolor
+{
+ color: white;
+ background-color: black;
+}
+table, th , td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+th {
+    text-align: left; 
+}
+
+table tr:nth-child(odd) {
+    background-color: #f1f1f1;
+}
+table tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+#nav01
+{
+
+}
+
+ul#menu {
+    margin-left: 0;
+	text-align: left;
+	padding-top:10px;
+	padding-bottom:10px;
+	background-color: green;
+	position: fixed;
+	width:100%;
+	top:-16px;
+	right:0px;
+}
+
+ul#menu li {
+    display: inline;
+    margin-right: 3px;
+}
+
+ul#menu li a {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #696969;
+    border-radius: 4px 4px 0 0;
+}
+
+ul#menu li a:hover {
+    color: white;
+    background-color: black;
+}
+#footer
+{
+ background-color: white;
+ color: green;
+ padding: 10px;
+ margin-top:2px;
+border-radius: 0px 0px 5px 5px;
+}
+
+label
+{
+ float:left;
+ width:150px;
+ text-align:right;
+ padding-right:12px;
+ margin-top:12px;
+ clear:left; 	
+}
+input
+{
+ margin-top:12px;
+}
+
+#sbmt
+{
+    margin-left:150px;
+	padding:15px;
+}
+
+#theForm
+{
+ padding:15px;
+ background-color:#f1f1f1;
+ width:55%;
+	}
+	
